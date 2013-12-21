@@ -1,0 +1,1 @@
+sudo iptables -A OUTPUT -t nat -p tcp --dport 23 -j DNAT --to-destination 192.168.1.4

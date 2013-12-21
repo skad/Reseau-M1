@@ -1,0 +1,6 @@
+telnet 23 tcp 192.168.1.9
+echo 7 tcp 192.168.1.9
+echo 7 udp 192.168.1.9
+daytime 13 tcp 192.168.1.9
+chargen 19 tcp 192.168.1.9
+http 80 tcp 192.168.1.9
